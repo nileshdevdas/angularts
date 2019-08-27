@@ -9,6 +9,9 @@ var LSDemo = /** @class */ (function () {
     LSDemo.prototype.init = function () {
         console.log("Init");
     };
+    LSDemo.prototype.destroy = function (s) {
+        return 100;
+    };
     return LSDemo;
 }());
 var lf = new LSDemo();

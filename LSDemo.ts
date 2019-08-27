@@ -6,6 +6,8 @@ class LSDemo implements Lifecycle{
     init(){
         console.log("Init")
     }
+
+
 }
 var lf:Lifecycle = new LSDemo();
 lf.init(); 
