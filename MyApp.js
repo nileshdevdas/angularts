@@ -1,3 +1,18 @@
+"use strict";
+exports.__esModule = true;
+var App1 = /** @class */ (function () {
+    function App1() {
+    }
+    return App1;
+}());
+exports.App1 = App1;
+var App2 = /** @class */ (function () {
+    function App2() {
+    }
+    return App2;
+}());
+exports.App2 = App2;
+;
 var MyApp = /** @class */ (function () {
     function MyApp() {
         this.a = 10;
@@ -6,8 +21,6 @@ var MyApp = /** @class */ (function () {
         console.log(this.a);
         console.log(this.b);
     }
-    //fnName(p1:p1Type, p2:p2Type):returnType {
-    //}
     MyApp.prototype.add = function (num1, num2) {
         var num3 = num1 + num2;
         return num3;
@@ -16,8 +29,4 @@ var MyApp = /** @class */ (function () {
     };
     return MyApp;
 }());
-var a1 = new MyApp(); // will call a constructor and create a object
-var a2 = new MyApp(); /// will call a constrcutor and create a object 
-a1.add(1, 2);
-a2.add(10, 20);
-console.log(a1);
+exports["default"] = MyApp;

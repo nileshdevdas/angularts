@@ -1,4 +1,7 @@
-class MyApp {
+export class App1{}
+export class App2{};
+
+export default class MyApp {
     a: number = 10;
     b: number = 20;
     constructor() {
@@ -13,11 +16,3 @@ class MyApp {
     substract() {
     }
 }
-var a1 = new MyApp();  // will call a constructor and create a object
-var a2 = new MyApp();  /// will call a constrcutor and create a object 
-a1.add(1, 2);
-a2.add(10, 20);
-console.log(a1);
-
-
-
