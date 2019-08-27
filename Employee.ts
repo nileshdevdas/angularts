@@ -1,19 +1,13 @@
-
 class Employee{
-    constructor(){
-    }
-
+    constructor(){}
     addCoins(){
         console.log("Adding Coins to Employee");
     }
 }
-
-
 class Manager extends Employee{
     constructor(){
         super();
     }
-
     addCoins(){
         super.addCoins();
         console.log("Adding Coins in Manager")
